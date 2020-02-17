@@ -12,7 +12,14 @@ while True:
             bday=input()
             spam[name]=bday
             print('Birthday Updated')
+
     else:
+        for i in spam.values():
+            print(i)
+        for j in spam.keys():
+            print (j)
+        for k in spam.items():
+            print (k)
         print('See you soon')
         break
 
